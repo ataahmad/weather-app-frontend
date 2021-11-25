@@ -1,0 +1,30 @@
+.Header {
+    background-color: violet;
+    height: 30px;
+    text-align: center;
+    font-size: x-large;
+    padding: 3px;
+}
+
+.TimeBoxOutter {
+    float: left;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    background-color: #0666a3
+}
+
+.TimeBoxInner {
+    border: 5;
+    background-color: grey;
+    display: inline-block;
+    padding: 3px;
+    
+}
+
+.renderModal {
+    display: flex;
+    position: relative;
+    top: 10%;
+    height: 80%;
+}
