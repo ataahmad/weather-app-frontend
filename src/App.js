@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
 import Header from './components/Header';
 import TimeBox from './components/TimeBox';
 import FormBox from './components/FormBox';
