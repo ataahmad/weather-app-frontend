@@ -1,14 +1,17 @@
 import { Component } from "react";
 import './Styles/Components.css';
+// import {useSelector, useDispatch} from "react-redux";
+// import * as actions from '../actions/actions';
+
 
 class TimeBox extends Component {
-    render () {
+
+
+    render() {
         return (
-            <div className= "card renderModal">
-                heyyyyy
-                <div className = "TimeBoxInner">
-                    yo
-                </div>
+            <div className="card renderModal">
+                <button className="TimeBoxInner">
+                </button>
             </div>
         )
     }

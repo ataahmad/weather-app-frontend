@@ -1,29 +1,14 @@
-import * as actions from './actions'
+// import * as actions from '../actions/actions'
 
-
-const initialState = {
-    timeIndex: 0
-}
-
-export default function timeBox(state = initialState, actions) {
-    // const { currState } = getState();
-    switch (actions.type) {
-        case 'SUBMIT_ADDRESS_REQUEST':
-            return {
-                ...state,
-                // weatherData: action.payload
-            }
-        case 'ITERATE_TIME_DOWN':
-            return {
-                ...state,
-                timeIndex: 1
-            }
-        case 'ITERATE_TIME_UP':
-            return {
-                ...state,
-                timeIndex: 1
-            }
+function timeBox(state = 0, action) {
+    switch (action.type) {
+        case "timeUp":
+            return state + 1;
+        case "timeDown":
+            return state - 1;
         default:
             return state;
     }
 }
+
+export default timeBox;
