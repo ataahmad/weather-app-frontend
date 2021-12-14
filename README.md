@@ -1,6 +1,9 @@
 # weather-app-frontend
-Building the front end of my weather application with React.
-Currently under construction.
+Building the front end of my weather application with React.  
+Currently under construction.  
+Integrating Travis CI currently for CI.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
